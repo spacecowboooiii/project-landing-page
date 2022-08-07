@@ -13,11 +13,13 @@ body {
     background-color: #1f2937;
 }
 
+
+/* Header and Navigation Menu */
 .container {
     display: flex;
     padding: 50px 150px;
     flex-direction: column;
-    justify-content: flex-start;
+        max-height: 500px;
 }
 
 .navbar {
@@ -28,7 +30,7 @@ body {
 
 .navbar .logo {
     font-size: 30px;
-    color: #f9faf9;
+    color: #f9faf8;
     font-weight: bold;
 }
 
@@ -43,4 +45,46 @@ body {
 
 .navbar .nav a {
     text-decoration: none;
+}
+
+/* Hero Section */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero .text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+}
+
+.hero .text h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero .text p {
+    font-size: 20px;
+    color: #e5e7eb;
+}
+
+.hero button {
+    max-width: 70px;
+    height: 25px;
+    border-radius: 7%;
+    background-color: #3882f6;
+    border: none;
+    font-weight: bold;
+    color: #e5e7eb;
+
+}
+
+.hero img {
+    height: 260px;
+    width: 550px;
+    border-radius: 5%;
 }
