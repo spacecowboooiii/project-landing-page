@@ -87,3 +87,29 @@ img {
     max-width: 90%;
     height: auto;
 }
+
+/* Information */
+
+.information {
+    text-align: center;
+}
+
+.information .title {
+    font-size: 20px;
+    color: #1f2937;
+}
+
+.information .boxes {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.information .boxes img {
+    max-width: 250px;
+    max-height: 100px;
+}
+
+.information .boxes .flower,.coin,.star,.mushroom {
+    padding: 0 60px;
+}
