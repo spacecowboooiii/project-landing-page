@@ -14,6 +14,10 @@ ul, li, a {
     list-style: none;
 }
 
+img {
+    background-image: none;
+}
+
 /* Hero Navigation Bar */
 
 .hero {
@@ -25,7 +29,7 @@ ul, li, a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .hero-logo {
@@ -40,4 +44,46 @@ ul, li, a {
     font-size: 25px;
     font-weight: bold;
     color: #e5e7eb;
+}
+
+/* Hero */
+
+.hero .hero-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero .left h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero .left p {
+    font-size: 25px;
+    color: #f9faf8;
+    margin: 10px 0;
+    margin-bottom: 20px;
+}
+
+.hero .left button {
+    border-style: none;
+    font-size: 16px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    font-weight: bold;
+    color: #e5e7eb;
+}
+
+.hero .right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero .right img {
+    display: flex;
+    max-width: 90%;
+    height: auto;
 }
