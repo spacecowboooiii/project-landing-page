@@ -136,3 +136,34 @@ img {
     font-size: 36px;
     font-weight: bold;
 }
+
+/* Sign Up */
+
+.signup {
+    margin: 100px 300px;
+}
+
+.signup .signup-box {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    padding: 40px;
+    align-items: center;
+    border-radius: 7px;
+    color: #f9faf8;
+    font-size: 20px;
+}
+
+.signup p {
+    font-size: 15px;
+}
+
+.signup button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: solid #f9faf8 2px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
