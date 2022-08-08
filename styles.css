@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: solid red 1px;
+}
+
+a:visited {
+    color: #e5e7eb
+}
+
+ul, li, a {
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Hero Navigation Bar */
+
+.hero {
+    padding: 50px 50px;
+    background-color: #1f2937;
+}
+
+.hero nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.hero-logo {
+    font-weight: bolder;
+    font-size: 40px;
+    color: #f9faf8;
+}
+
+.hero nav .hero-links {
+    display: flex;
+    gap: 70px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #e5e7eb;
+}
