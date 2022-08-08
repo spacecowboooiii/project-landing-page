@@ -167,3 +167,12 @@ img {
     font-size: 20px;
     border-radius: 10px;
 }
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 10px;
+}
