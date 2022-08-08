@@ -2,13 +2,16 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: solid red 1px;
+    /* Uncomment to view borders */
+    /* border: solid red 1px; */
 }
 
 a:visited {
     color: #e5e7eb
 }
-
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 ul, li, a {
     text-decoration: none;
     list-style: none;
