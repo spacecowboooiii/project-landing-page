@@ -38,11 +38,13 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .hero-logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bolder;
 }
 
 nav .hero-links {
@@ -50,4 +52,46 @@ nav .hero-links {
     gap: 300px;
     font-size: 18px;
     font-weight: bold;
+}
+
+button {
+    background-color: #3882f6;
+    border: none;
+    color: #e5e7eb;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Hero Main */
+
+.hero-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.left {
+    width: 1000px;
+}
+
+.left p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.left button {
+    margin-top: 20px;
+}
+
+.hero-main img {
+    height: 450px;
 }
